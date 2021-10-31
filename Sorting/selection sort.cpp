@@ -9,7 +9,7 @@ vector<int> selection_sort(vector<int> &nums) {
         int min_index = i;
         for (int j = i + 1; j < length; ++j) {
             if (nums[min_index] > nums[j])
-                min_indx = j;
+                min_index = j;
         }
         swap(nums[min_index], nums[i]);
     }
